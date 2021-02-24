@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My Bio Data</h1>
+    <fieldset>
+    <legend>Personal Informaton </legend>
+    <label for ="username">First name:</label>
+    <input type="text"  placeholder="First name" id ="username" >
+    <label for ="password">Last name:</label>
+    <input type="text" placeholder="Last name" id ="password"  >
+    <br>
+    <br>
+    Gender
+    <br>
+    <label for ="Male">Male</label>
+    <input type="radio" id ="Male" name="Gender" >
+    <label for ="Female">Female</label>
+    <input type="radio" id ="Female" name= "Gender" >
+    <label for ="Others">Others</label>
+    <input type="radio" id ="Others" name ="Gender" >
+    <br>
+    <br>
+    Date Of Birth:
+    <input type="date" id ="Date Of Birth"  >
+    <br>
+    <br>
+    Email:
+    <input type="email" id ="Email" placeholder="Enter your mail" >
+    <br>
+    <br>
+    Phone:
+    <input type="tel" id ="Phone" maxlength="10" placeholder="+91">
+    <br>
+    <br>
+    Height:
+    <input type="tel" id ="Height" maxlength="5" placeholder="Height in feet">
+    </fieldset>
+
+    <fieldset>
+    <legend>Education</legend>
+    
+    <label for = name>School Name</label>
+    <input type="text" id ="name" name="School name" placeholder="School Name" >
+    <br>
+    <br>
+    <label for = name>Class</label>
+    <input type="text" id ="name" name="Class" placeholder="Enter Class" >
+    <br>
+    <br>
+    <label for = Stream>Stream:</label>
+    <select name="Stream" id="Stream">
+        <option>Stream</option>
+        <option>Science</option>
+        <option>Commerce</option>
+        <option>Arts</option>
+    </select>
+    <br>
+    <br>
+    <label for = ms>Marksheet:</label>
+    <input type ="file" id = "ms" name="Marksheet"> 
+    </fieldset>
+    <br>
+    <input type="Submit">
+</body>
+</html>
